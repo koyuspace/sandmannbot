@@ -27,4 +27,4 @@ mastodon.log_in(
 
 os.system("bash kikadump.sh")
 
-mastodon.status_post("", media_ids=mastodon.media_post("kika.mp4"))
+mastodon.status_post("", media_ids=mastodon.media_post("comp.mp4"))
