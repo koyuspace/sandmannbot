@@ -9,7 +9,7 @@ import time
 
 if not os.path.exists("clientcred"):
     Mastodon.create_app(
-     "dicebot",
+     "sandmannbot",
      api_base_url = creds.instance,
      to_file = "clientcred"
     )
